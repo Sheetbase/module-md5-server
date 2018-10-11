@@ -1,0 +1,32 @@
+{
+	"name": "@sheetbase/md5-server",
+	"type": "module",
+	"version": "2.10.0",
+	"description": "JavaScript MD5 implementation for Google apps script.",
+	"author": "Sebastian Tschan",
+	"homepage": "https://blueimp.github.io/JavaScript-MD5/",
+	"license": "MIT",
+	"scripts": {
+		"build:code": "sheetbase-app-scripts build --vendor",
+		"build:readme": "sheetbase-app-scripts readme --no-docs",
+		"build": "npm run build:code && npm run build:readme",
+		"push": "sheetbase-app-scripts push"
+	},
+	"keywords": [
+		"google-apps-script",
+		"md5",
+		"hashing"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sheetbase/module-md5-server.git"
+	},
+	"bugs": {
+		"url": "https://github.com/sheetbase/module-md5-server/issues"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"@sheetbase/app-scripts": "0.0.7",
+		"@types/google-apps-script": "0.0.28"
+	}
+}
