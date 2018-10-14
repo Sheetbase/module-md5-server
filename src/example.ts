@@ -1,7 +1,6 @@
-var proccess = proccess || this;
+import { Md5Module } from '../index';
 
-declare const Md5Module: {()};
-const Md5 = proccess['Md5'] || Md5Module();
+const Md5 = Md5Module();
 
 export function example1(): void {
     const hash = Md5.md5('hello');

@@ -1,0 +1,1 @@
+export { Md5Module, Md5 } from './src';

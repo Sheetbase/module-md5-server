@@ -5,7 +5,7 @@ var module = module || { exports: exports };
  * Name: @sheetbase/md5-server
  * Export name: Md5
  * Description: JavaScript MD5 implementation for Google apps script.
- * Version: 2.10.0
+ * Version: 2.10.0-1
  * Author: Sebastian Tschan
  * Homepage: https://blueimp.github.io/JavaScript-MD5/
  * License: MIT
@@ -25,6 +25,7 @@ var module = module || { exports: exports };
 }
 exports.Md5Module = Md5Module;
 /*</sheetbase>*/
-// add to the global namespace
-var proccess = proccess || this;
-proccess['Md5'] = Md5Module();
+// add 'Md5' to the global namespace
+(function (process) {
+    process['Md5'] = Md5Module();
+})(this);
