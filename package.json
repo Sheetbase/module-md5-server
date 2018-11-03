@@ -18,10 +18,10 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/sheetbase/module-md5-server.git"
+		"url": "https://github.com/sheetbase/md5-server.git"
 	},
 	"bugs": {
-		"url": "https://github.com/sheetbase/module-md5-server/issues"
+		"url": "https://github.com/sheetbase/md5-server/issues"
 	},
 	"dependencies": {},
 	"devDependencies": {
